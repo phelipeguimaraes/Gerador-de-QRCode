@@ -26,8 +26,10 @@ Este é um projeto de Gerador de QR Code desenvolvido com JavaScript Vanilla. O 
 3. Insira a URL ou texto no campo designado e clique no botão para gerar o QR Code.
 
 ## Estrutura do Projeto
+Site: https://gerador-de-qr-code-ke9uda011-phelipe-vieira-guimaraes-projects.vercel.app
 
 ![imagem_2024-06-13_224010520](https://github.com/phelipeguimaraes/Gerador-de-QRCode/assets/137660442/41df0665-3882-4e66-b5a4-7b681065cb6a)
+----
 ![imagem_2024-06-13_224156332](https://github.com/phelipeguimaraes/Gerador-de-QRCode/assets/137660442/5480eba9-a514-40a5-940a-b8fd02fcd11c)
 
 
