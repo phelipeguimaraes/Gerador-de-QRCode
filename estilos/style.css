@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1629056948919-2ff26272117e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: hidden;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 260px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container.ativo {
+    height: 550px;
+}
+
+.container h1 {
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+.container p {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.qrcode-form input,
+.qrcode-form button {
+    width: 100%;
+    padding: 15px 19px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.qrcode-form input {
+    border: 1px solid #ccc;
+
+}
+
+.qrcode-form button {
+    background-color: #086824;
+    color: white;
+    cursor: pointer;
+    opacity: .7;
+}
+
+.qrcode-form button:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+#qrcode {
+    border: 1px solid #ccc;
+    display: flex;
+    height: 250px;
+    width: 300px;
+    margin: 25px auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    opacity: 0;
+}
+
+.container.ativo #qrcode{
+    opacity: 1;
+}
+
+/* Media Query */
+@media (max-width: 470px) {
+    .container {
+        width: 350px;
+    }
+}
